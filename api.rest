@@ -1,0 +1,55 @@
+GET http://localhost:1337/api/pages?filters[name][$contains]=contact&fields[0]=name&fields[1]=title1&fields[2]=description1&fields[3]=title2&fields[4]=description2
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+
+###
+GET http://localhost:1337/api/categories?fields[0]=name&fields[1]=description&fields[2]=cta&fields[3]=labelCTA&fields[4]=descriptionDetail
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+###
+GET http://localhost:1337/api/category-listas
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+
+
+###
+
+GET http://localhost:1337/api/menus
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+
+###
+
+GET http://localhost:1337/api/content-hero-headers?filters[page][name][$contains]=home&fields[0]=titulo&fields[1]=description&fields[2]=cta&fields[3]=labelcta&populate[image][fields][0]=url
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+--yjk83czev30l4jwok7ceaag5
+
+###
+
+GET http://localhost:1337/api/data-globals?fields[0]=bussiness&fields[1]=email&fields[2]=description&populate[logo][fields][0]=url
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+###
+
+GET http://localhost:1337/api/menus?fields[0]=name&fields[1]=slug&fields[2]=cta
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+
+
+###
+GET http://localhost:1337/api/category-listas?filters[page][name][$contains]=home&fields[0]=description
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+
+
+###
+GET http://localhost:1337/api/content-hero-headers?filters[page][name][$contains]=home&fields[0]=titulo&fields[1]=description&fields[2]=cta&fields[3]=labelcta&populate[image][fields][0]=url
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+
+
+###
+GET http://localhost:1337/api/solutions?fields[0]=number&fields[1]=nombre&fields[2]=description
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+
+###
+get http://localhost:1337/api/categories?fields[0]=name&fields[1]=description&fields[2]=cta&fields[3]=labelCTA&fields[4]=descriptionDetail&populate[image][fields][0]=url&&populate[icon][fields][0]=url
+Authorization: Bearer 
+
+###
+
+GET http://localhost:1337/api/category-listas?filters[category][name][$contains]=diseño&fields[0]=description
+Authorization: Bearer c2711a64aa66245925786a4f0f82dfe51576b280550bdb1ca4ce61d4f990cd5717744c813213709d8e23ae653ee8794210388980df87b6cf100a00022cf2b23540f8801594ca7b42abe30984972dff1916dcaeee22f04fe3a5869aee1b66a26cd8504c781f5850808824bede489e3db790e4e237b98c32422b295a5c2a3412f5
+
